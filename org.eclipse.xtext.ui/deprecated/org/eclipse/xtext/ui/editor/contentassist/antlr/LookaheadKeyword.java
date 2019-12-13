@@ -1,5 +1,5 @@
 /*******************************************************************************
- * Copyright (c) 2009 itemis AG (http://www.itemis.eu) and others.
+ * Copyright (c) 2009, 2019 itemis AG (http://www.itemis.eu) and others.
  * All rights reserved. This program and the accompanying materials
  * are made available under the terms of the Eclipse Public License v1.0
  * which accompanies this distribution, and is available at
@@ -10,6 +10,10 @@ package org.eclipse.xtext.ui.editor.contentassist.antlr;
 import org.eclipse.xtext.AbstractElement;
 import org.eclipse.xtext.Keyword;
 
+/**
+ * @deprecated Use {@link org.eclipse.xtext.ide.editor.contentassist.antlr.LookaheadKeyword} instead
+ */
+@Deprecated
 public class LookaheadKeyword extends LookAheadTerminal {
 
 	private String keyword;

@@ -1,5 +1,5 @@
 /*******************************************************************************
- * Copyright (c) 2008-2010 itemis AG (http://www.itemis.eu) and others.
+ * Copyright (c) 2008, 2019 itemis AG (http://www.itemis.eu) and others.
  * All rights reserved. This program and the accompanying materials
  * are made available under the terms of the Eclipse Public License v1.0
  * which accompanies this distribution, and is available at
@@ -11,7 +11,9 @@ package org.eclipse.xtext.ui.editor.contentassist.antlr;
  * Used by the {@link AbstractPartialContentAssistParser} to find the node at which to start parsing.
  * @author Sebastian Zarnekow
  * @since 2.7
+ * @deprecated Use {@link org.eclipse.xtext.ide.editor.contentassist.antlr.EntryPointFinder} instead
  */
+@Deprecated
 public class EntryPointFinder extends org.eclipse.xtext.ide.editor.contentassist.antlr.EntryPointFinder {
 	
 }

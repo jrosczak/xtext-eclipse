@@ -1,5 +1,5 @@
 /*******************************************************************************
- * Copyright (c) 2009, 2017 itemis AG (http://www.itemis.eu) and others.
+ * Copyright (c) 2009, 2019 itemis AG (http://www.itemis.eu) and others.
  * All rights reserved. This program and the accompanying materials
  * are made available under the terms of the Eclipse Public License v1.0
  * which accompanies this distribution, and is available at
@@ -13,7 +13,9 @@ import org.eclipse.xtext.ide.editor.contentassist.antlr.ILookAheadTerminal;
 
 /**
  * @author Sebastian Zarnekow - Initial contribution and API
+ * @deprecated Use {@link org.eclipse.xtext.ide.editor.contentassist.antlr.LookAheadTerminal} instead
  */
+@Deprecated
 public abstract class LookAheadTerminal implements ILookAheadTerminal {
 
 	private Token token;
